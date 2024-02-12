@@ -86,3 +86,63 @@ body {
   font-size: 18px;
   margin-bottom: 10px;
 }
+/* Steart topics section */
+.topics {
+  padding: 20px;
+}
+.topics__title {
+  margin-bottom: 20px;
+}
+.topics__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.topics__container p {
+  border: 1px solid gray;
+  flex-grow: 1;
+  flex-basis: 25%;
+  padding: 20px;
+}
+/* End Topics Section */
+/* Start Poplar Section */
+.popular {
+  padding: 20px;
+}
+.popular h1 {
+  margin-bottom: 10px;
+}
+.popular p {
+  margin-bottom: 20px;
+}
+.popular__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* End Popular Section */
+/* Start Footer Section */
+.footer {
+  padding: 30px;
+  background-color: #000;
+  color: #fff;
+}
+.footer__one {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+.footer__one__s1 p,
+.footer__one__s2 p {
+  margin-bottom: 10px;
+}
+.footer__two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__two p {
+  display: inline-block;
+}
+/* End Footer Section */
